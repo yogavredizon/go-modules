@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/yogavredizon/todolist/pkg/helper"
-	"github.com/yogavredizon/todolist/pkg/model"
+	"github.com/yogavredizon/todolist/helper"
+	"github.com/yogavredizon/todolist/model"
 )
 
 func AddTodo(todo, timeTodo string) error {
